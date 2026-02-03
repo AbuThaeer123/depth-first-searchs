@@ -92,40 +92,91 @@ if __name__ == "__main__":
     result = dfs(graph, start_node)
     print(result)
  ```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DFS Graph Output</title>
+    <style>
+        body {
+            background-color: #0e1117;
+            color: #ffffff;
+            font-family: Arial, sans-serif;
+            padding: 30px;
+        }
+
+        h3 {
+            margin-bottom: 10px;
+        }
+
+        hr {
+            border: 0;
+            height: 2px;
+            background: #2a2f3a;
+            margin: 15px 0;
+        }
+
+        .box {
+            background: #0b0f14;
+            padding: 15px;
+            border-radius: 6px;
+            line-height: 1.6;
+            white-space: pre-line;
+        }
+
+        .result {
+            margin-top: 10px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
 <h3>Sample Input</h3>
 <hr>
-8 9 <BR>
-A B <BR>
-A C <BR>
-B E <BR>
-C D <BR>
-B D <BR>
-C G <BR>
-D F <BR>
-G F <BR>
-F H <BR>
-<hr>
+<div class="box">
+8 9
+A B
+A C
+B E
+C D
+B D
+C G
+D F
+G F
+F H
+</div>
+
 <h3>Sample Output</h3>
 <hr>
+<div class="box">
 ['A', 'B', 'E', 'D', 'C', 'G', 'F', 'H']
+</div>
 
 <hr>
 
-<hr>
 <h3>Sample Input</h3>
 <hr>
-5 5 <BR>
-0 1 <BR>
-0 2 <BR>
-0 3 <BR>
-2 3 <BR>
-2 4 <BR>
-<hr>
+<div class="box">
+5 5
+0 1
+0 2
+0 3
+2 3
+2 4
+</div>
+
 <h3>Sample Output</h3>
 <hr>
+<div class="box">
 ['0', '1', '2', '3', '4']
+</div>
 
-<hr>
 <h3>Result:</h3>
 <hr>
-<p>Thus,a Graph was constructed and implementation of Depth First Search for the same graph was done successfully.</p>
+<div class="result">
+Thus, a Graph was constructed and implementation of Depth First Search for the same graph was done successfully.
+</div>
+
+</body>
+</html>
